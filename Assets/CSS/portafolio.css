@@ -56,14 +56,43 @@
 /* El resumen profesional quedó en el centro alineado con la imagen. HASTA AQUI TODO OK. Ahora seguiremos con la presentacion de los proyectos. */
 .TituloPort{
     font-family: 'Alegreya Sans SC', sans-serif;
-    background-color: black;
+    /* background-color: black; */
     color: white;
 }
 
 .Proyectos{
     padding-top: 6rem;
-    background-color: black;    
+    background-color: black;  
 }
 
+.Proyectos img {
+    height: 400px;
+    width: 100%;
+}
 
+footer h3{
+    text-align: center;
+    padding-top: 2rem;
+    font-weight: bold;
+    color:aliceblue;
+}
 
+footer p{
+    text-align: center;
+    font-weight: lighter;
+    opacity: 80%;
+}
+
+img{
+    height:270px;
+    width: 360px;
+}
+
+#EnviarB{
+    margin: 1rem;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    padding:1rem;
+    border-radius: 20%;
+}

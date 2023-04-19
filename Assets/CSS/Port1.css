@@ -1,0 +1,44 @@
+/* Primero aplicamos el fondo de la pagina */
+.FondoMar img{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 79%;
+    height:100vh;
+}
+
+/* Ahora trabajamos sobre el titulo */
+.Titulo{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    width: 100%;
+    font-size: 10rem;
+    position: absolute;
+    z-index: 1;
+    padding-top: 1.7rem;
+    text-shadow: 3px 3px 3px rgba(172, 141, 141, 0.904);
+}
+
+#FotoPerfil{
+    position:absolute;
+    height: auto;
+    width: 30rem;
+    top: 9rem;
+    left : 3rem;
+    z-index: 1;
+    border-radius: 20%;
+}
+
+.TituloResPro{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    padding-left: 4rem;
+}
+
+
+
+
+
+
